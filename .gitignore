@@ -1,0 +1,30 @@
+# Obsidian: per-machine UI state (changes constantly, causes merge conflicts)
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+.obsidian/cache
+.obsidian/graph.json
+
+# Obsidian: plugin binaries and local plugin data
+.obsidian/plugins/*/data.json
+
+# Obsidian: trash and sync/conflict leftovers
+.trash/
+*.sync-conflict-*
+*.conflict
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor and temp files
+.vscode/
+*.tmp
+*.bak
+~$*
+
+# Never commit secrets
+.env
+*.pem
+*.pfx
+*.key
